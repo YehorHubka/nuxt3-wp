@@ -5,7 +5,8 @@ export default defineNuxtConfig({
       title: 'Nuxt3 + wpApi + Tailwind project',
       viewport: 'width=device-width, initial-scale=1',
       charset: 'utf-16',
-    }
+    },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
   css: [
     '~/assets/scss/main.scss'
