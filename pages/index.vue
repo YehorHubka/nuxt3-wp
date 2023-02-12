@@ -12,9 +12,11 @@
           />
         </div>
         <div class="max-w-[400px]">
-          <div class="text-4xl font-bold text-gray-800 mb-3">Yehor's Blog</div>
-          <div class="text-md text-gray-500 mb-4">
-            This blog was created by using a modern tecnologies as Nuxt3,
+          <div class="text-4xl font-bold text-gray-800 mb-3 dark:text-gray-100">
+            Yehor's Blog
+          </div>
+          <div class="text-md text-gray-500 mb-4 dark:text-gray-200">
+            This blog was created by using a modern tecnologies as Nuxt3, Pinia,
             TailwindCSS, WP REST Api.
           </div>
           <a

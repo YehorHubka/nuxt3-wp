@@ -1,7 +1,9 @@
 <template>
   <div>
     <PageHeading>
-      <h1 class="text-4xl font-bold">#{{ categories[0].name }} category</h1>
+      <h1 class="text-4xl font-bold dark:text-gray-100">
+        #{{ categories[0].name }} category
+      </h1>
     </PageHeading>
     <section class="container" v-if="posts.length === 0">
       <div class="text-2xl font-bold mb-5">

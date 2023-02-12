@@ -1,11 +1,11 @@
 <template>
   <div>
     <PageHeading>
-      <h1 class="text-2xl sm:text-4xl text-center font-bold">
+      <h1 class="text-2xl sm:text-4xl text-center font-bold dark:text-gray-100">
         {{ post.title.rendered }}
       </h1>
     </PageHeading>
-    <section class="text-lg pb-10 text-gray-700">
+    <section class="text-lg pb-10 text-gray-700 dark:text-gray-100">
       <div class="container">
         <div
           class="
@@ -46,6 +46,12 @@ const post = posts.value[0];
 
 <style>
 .post-content p {
+  @apply mb-3;
+}
+.post-content ol {
+  @apply mb-3;
+}
+.post-content ul {
   @apply mb-3;
 }
 .post-content h2 {
